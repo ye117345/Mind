@@ -30,7 +30,7 @@ public class UserDao {
 		
 		try {
 			String sql = "select * from _user where username = ? and password = ?";
-			
+			//？？？？
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, userName);
 			pstmt.setString(2, password);
